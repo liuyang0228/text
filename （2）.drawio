@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:01:11.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="imIwQp1Uf47Z1MR6aRsO" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T06:05:25.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="Ut8XxCOxt4eLyOVV2q8W" version="21.0.10" type="github">
   <diagram name="第 1 页" id="gQwRuC0dwjucv8FMxDMb">
-    <mxGraphModel dx="1096" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1096" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,13 +15,13 @@
         <mxCell id="ncj2i3yl5v5XBpQx4jBK-4" value="供应商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="480" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ncj2i3yl5v5XBpQx4jBK-6" value="芯片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-6" value="芯片上架" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ncj2i3yl5v5XBpQx4jBK-10" value="身份" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-10" value="身份验证" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ncj2i3yl5v5XBpQx4jBK-11" value="合同" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-11" value="合同提供" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ncj2i3yl5v5XBpQx4jBK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ncj2i3yl5v5XBpQx4jBK-10">
@@ -38,6 +38,46 @@
               <mxPoint x="140" y="500" />
               <mxPoint x="140" y="670" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-16" value="增加芯片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-18" value="删除芯片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-19" value="修改芯片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-20" value="查找芯片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncj2i3yl5v5XBpQx4jBK-6" target="ncj2i3yl5v5XBpQx4jBK-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="190" as="sourcePoint" />
+            <mxPoint x="650" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-22" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncj2i3yl5v5XBpQx4jBK-6" target="ncj2i3yl5v5XBpQx4jBK-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncj2i3yl5v5XBpQx4jBK-6" target="ncj2i3yl5v5XBpQx4jBK-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncj2i3yl5v5XBpQx4jBK-24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ncj2i3yl5v5XBpQx4jBK-6" target="ncj2i3yl5v5XBpQx4jBK-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
