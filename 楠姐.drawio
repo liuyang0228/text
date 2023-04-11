@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T08:46:59.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" version="21.1.5" etag="2iSAYH_xiwyHa6B-9KoS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:00:20.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="g98gvTBOxamq7gScWv90" version="21.1.5" type="github">
   <diagram name="第 1 页" id="QMZ6s6-DPiq4ILfDTaku">
-    <mxGraphModel>
+    <mxGraphModel dx="2117" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rZbV--hsExztKf2Tztt0-1" value="中共沈阳工学院信息与控制学院委员会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="50" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-2" value="中共沈阳工学院信息与控制学院学生工作第一党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-3" value="中共沈阳工学院信息与控制学院学生工作第二党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-4" value="中共沈阳工学院信息与控制学院学生工作第三党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-5" value="中共沈阳工学院信息与控制学院学生工作第四党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-6" value="中共沈阳工学院信息与控制学院学生工作第五党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-7" value="中共洗阳工学院信息与控制学院教师工作党支部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-9" value="支部书记:李夏&lt;br&gt;组织委员:张姣&lt;br&gt;纪检委员:张姣&lt;br&gt;宣传委员:何静&lt;br&gt;青年委员:杨帆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-14" value="支部书记:靳新&lt;br&gt;支部副书记:潘月&lt;br&gt;组织委员:王婷&lt;br&gt;纪检委员:王婷&lt;br&gt;宣传委员:田林琳&lt;br&gt;统战委员:杨帆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-15" value="支部书记:侯春阳&lt;br&gt;组织委员:田通&lt;br&gt;纪检委员:赵悦&lt;br&gt;宣传委员:赵悦&lt;br&gt;青年委员:田通" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-16" value="支部书记:徐文杰&lt;br&gt;组织委员:徐乾倬&lt;br&gt;纪检委员:单宇航&lt;br&gt;宣传委员:单宇航&lt;br&gt;青年委员:徐乾倬" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-17" value="支部书记:丛林楠&lt;br&gt;组织委员:杨希&lt;br&gt;纪检委员:梁英才&lt;br&gt;宣传委员:梁英才&lt;br&gt;青年委员:杨希" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZbV--hsExztKf2Tztt0-18" value="支部书记:刘嵩&lt;br&gt;组织委员:王开宇&lt;br&gt;纪检委员:郭锐&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;宣传委员:郭锐&lt;br&gt;青年委员:王开宇" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
