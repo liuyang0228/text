@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:53:03.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="zygd46ZwagCLGEJqFqp5" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:57:23.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="PWDSTQKHITXfsqdYKgxY" version="21.1.5" type="github">
   <diagram name="第 1 页" id="QMZ6s6-DPiq4ILfDTaku">
     <mxGraphModel dx="1105" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,10 +142,10 @@
             <mxPoint x="950" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rZbV--hsExztKf2Tztt0-57" value="支部书记:李夏&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;组织、纪检委员:张姣&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;宣传、青年委员:杨帆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rZbV--hsExztKf2Tztt0-57" value="支部书记:李夏&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;组织、纪检委员:张&amp;nbsp; &amp;nbsp; 姣&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;宣传、青年委员:杨&amp;nbsp; &amp;nbsp; 帆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="593" y="460" width="134" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rZbV--hsExztKf2Tztt0-58" value="支部书记:侯春阳&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;组织、青年委员:田通&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;宣传、纪检委员:赵悦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rZbV--hsExztKf2Tztt0-58" value="支部书记:侯春阳&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;组织、青年委员:田&amp;nbsp; &amp;nbsp; 通&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;宣传、纪检委员:赵&amp;nbsp; &amp;nbsp; 悦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="733" y="460" width="134" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rZbV--hsExztKf2Tztt0-59" value="支部书记:徐文杰&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;组织、青年委员:徐乾倬&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;宣传、纪检委员:单宇航" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
