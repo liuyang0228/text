@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:29:15.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="n8p2HMriTmEB3on7kQSH" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T06:29:26.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="DI0PtE6wpA8pbow8f7al" version="21.1.7" type="github">
   <diagram name="第 1 页" id="2etSsabE5EfdO6nmUWNd">
     <mxGraphModel dx="2062" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="MQDV8qLic893FauFztu4-31" value="图书借阅业务类" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1090" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MQDV8qLic893FauFztu4-32" value="图书借阅信息访问类" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQDV8qLic893FauFztu4-32" value="图书信息访问类" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1403" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MQDV8qLic893FauFztu4-33" value="图书借阅界面类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -115,7 +115,7 @@
         <mxCell id="MQDV8qLic893FauFztu4-42" value="verifyUserId(userId:string):book&lt;br&gt;verifyOverTime(userId:string):book&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;borrow(user:string,bookId:string):bool&lt;br&gt;verifyBookId(bookId:string):Boolean&lt;br&gt;verifyOverTime(bookId:string):Boolean&lt;br&gt;returnBook(bookId:string):bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MQDV8qLic893FauFztu4-40">
           <mxGeometry y="34" width="230" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="MQDV8qLic893FauFztu4-43" value="图书借阅信息访问类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQDV8qLic893FauFztu4-43" value="图书信息访问类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="1403" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="MQDV8qLic893FauFztu4-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MQDV8qLic893FauFztu4-43">
