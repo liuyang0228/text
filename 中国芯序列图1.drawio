@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T05:59:38.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="v9c5-hwekFZDrTNrKeRl" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T05:59:42.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="4niHddiOCI9Fo3TgKDvO" version="21.2.7" type="github">
   <diagram name="第 1 页" id="v3P6NcsCh_ItnPV5XtSY">
     <mxGraphModel dx="989" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,10 +68,10 @@
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-39" value="1.输入查询表单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="100" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="1JYwWHGMhUe7PKfR70Vq-3">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="120" y="130" as="sourcePoint" />
-            <mxPoint x="250" y="130" as="targetPoint" />
+            <mxPoint x="290" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
