@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T06:02:22.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="JEPqrVBtlmL6tjijIstu" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T06:05:18.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="Si7jvzIC3C-3XnrtoDX0" version="21.2.7" type="github">
   <diagram name="第 1 页" id="v3P6NcsCh_ItnPV5XtSY">
-    <mxGraphModel dx="989" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,216 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="120" y="130" as="sourcePoint" />
             <mxPoint x="290" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-41" value="&lt;u&gt;芯片界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-41">
+          <mxGeometry x="45" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-43" value="&lt;u&gt;程序逻辑层&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-43">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-45" value="&lt;u&gt;程序数据库&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-45">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="530" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-48" value="5:显示上架成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0051" relative="1" as="geometry">
+            <mxPoint x="425" y="600.0699999999999" as="sourcePoint" />
+            <mxPoint x="295" y="600.16" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-49" value="4.返回合法信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="590" as="sourcePoint" />
+            <mxPoint x="431" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-50" value="&lt;u&gt;芯片&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-51" value="2: 发送芯片数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="435" y="550" as="sourcePoint" />
+            <mxPoint x="565" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-53" value="3.验证芯片信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="451" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="505" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-55" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1JYwWHGMhUe7PKfR70Vq-54" target="1JYwWHGMhUe7PKfR70Vq-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="500" as="sourcePoint" />
+            <mxPoint x="110" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-56" value="1.输入芯片验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-57" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="520" as="sourcePoint" />
+            <mxPoint x="270" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-60" value="&lt;u&gt;合同界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="880" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-60">
+          <mxGeometry x="45" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-62" value="&lt;u&gt;程序逻辑层&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="880" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-62">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-64" value="&lt;u&gt;程序数据库&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="880" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-64">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-66" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="970" as="sourcePoint" />
+            <mxPoint x="430" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-67" value="5:显示合同上传" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0051" relative="1" as="geometry">
+            <mxPoint x="435" y="1040.07" as="sourcePoint" />
+            <mxPoint x="305" y="1040.16" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-68" value="4.返回合法信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571" y="1030" as="sourcePoint" />
+            <mxPoint x="441" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-69" value="&lt;u&gt;&lt;br&gt;合同&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-70" value="2: 发送合同信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="940" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-71" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="445" y="990" as="sourcePoint" />
+            <mxPoint x="575" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-72" value="3.验证合同信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="461" y="960" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="945" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-74" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1JYwWHGMhUe7PKfR70Vq-73" target="1JYwWHGMhUe7PKfR70Vq-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="940" as="sourcePoint" />
+            <mxPoint x="120" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-75" value="1.输入合同验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-76" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="960" as="sourcePoint" />
+            <mxPoint x="280" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-77" value="&lt;u&gt;芯片界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="220" y="1270" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-77">
+          <mxGeometry x="45" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-79" value="&lt;u&gt;程序逻辑层&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="370" y="1270" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-79">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-81" value="&lt;u&gt;程序数据库&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="510" y="1270" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-81">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-83" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="1360" as="sourcePoint" />
+            <mxPoint x="410" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-84" value="5:显示上架成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0051" relative="1" as="geometry">
+            <mxPoint x="415" y="1430.07" as="sourcePoint" />
+            <mxPoint x="285" y="1430.1599999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-85" value="4.返回合法信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="1420" as="sourcePoint" />
+            <mxPoint x="421" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-86" value="&lt;u&gt;芯片&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-87" value="2: 发送芯片数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-88" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="425" y="1380" as="sourcePoint" />
+            <mxPoint x="555" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-89" value="3.验证芯片信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="441" y="1350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="80" y="1335" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-91" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1JYwWHGMhUe7PKfR70Vq-90" target="1JYwWHGMhUe7PKfR70Vq-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1330" as="sourcePoint" />
+            <mxPoint x="100" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-92" value="1.输入芯片验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-93" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="1350" as="sourcePoint" />
+            <mxPoint x="260" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
