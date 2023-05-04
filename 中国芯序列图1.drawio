@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T05:59:45.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="DKULnqsUHFJsRmN2Qwzg" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T06:02:22.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="JEPqrVBtlmL6tjijIstu" version="21.2.7" type="github">
   <diagram name="第 1 页" id="v3P6NcsCh_ItnPV5XtSY">
     <mxGraphModel dx="989" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,23 +28,23 @@
             <mxPoint x="440" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-11" value="5:显示查询结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.0061" relative="1" as="geometry">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-11" value="5:显示认证成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0051" relative="1" as="geometry">
             <mxPoint x="445" y="210.07" as="sourcePoint" />
             <mxPoint x="315" y="210.16" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-12" value="4.返回航班信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-12" value="4.返回合法信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="220" as="sourcePoint" />
-            <mxPoint x="455" y="220" as="targetPoint" />
+            <mxPoint x="581" y="200" as="sourcePoint" />
+            <mxPoint x="451" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-13" value="&lt;u&gt;&lt;br&gt;采购方&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-13" value="&lt;u&gt;&lt;br&gt;用户&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-14" value="2: 发送表单数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-14" value="2: 发送身份数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="325" y="110" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
@@ -53,8 +53,8 @@
             <mxPoint x="585" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-16" value="3.查询表单航班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="130" width="110" height="30" as="geometry" />
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-16" value="3.验证身份信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="471" y="130" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="110" y="115" width="10" height="120" as="geometry" />
@@ -65,7 +65,7 @@
             <mxPoint x="130" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-39" value="1.输入查询表单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-39" value="1.输入身份验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="100" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
