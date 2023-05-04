@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T06:05:18.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="Si7jvzIC3C-3XnrtoDX0" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T06:05:59.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="m4frbL8wCsJSasm5r50f" version="21.2.7" type="github">
   <diagram name="第 1 页" id="v3P6NcsCh_ItnPV5XtSY">
     <mxGraphModel dx="1195" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
             <mxPoint x="280" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-77" value="&lt;u&gt;芯片界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-77" value="&lt;u&gt;订单界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="220" y="1270" width="100" height="200" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1JYwWHGMhUe7PKfR70Vq-77">
@@ -238,7 +238,7 @@
             <mxPoint x="410" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-84" value="5:显示上架成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-84" value="5:显示订单成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0051" relative="1" as="geometry">
             <mxPoint x="415" y="1430.07" as="sourcePoint" />
             <mxPoint x="285" y="1430.1599999999999" as="targetPoint" />
@@ -251,10 +251,10 @@
             <mxPoint x="421" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-86" value="&lt;u&gt;芯片&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-86" value="&lt;u&gt;订单&lt;br&gt;&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="1170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-87" value="2: 发送芯片数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-87" value="2: 发送订单数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="1330" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-88" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
@@ -263,7 +263,7 @@
             <mxPoint x="555" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-89" value="3.验证芯片信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-89" value="3.验证订单信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="441" y="1350" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -275,7 +275,7 @@
             <mxPoint x="100" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1JYwWHGMhUe7PKfR70Vq-92" value="1.输入芯片验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1JYwWHGMhUe7PKfR70Vq-92" value="1.输入订单验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="1320" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1JYwWHGMhUe7PKfR70Vq-93" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
