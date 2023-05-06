@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T00:59:45.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="-xKZRJAOqU5YZkUfgzeL" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T01:27:55.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="EZI58dV6NsMxmWmj8nBB" version="21.2.9" type="github">
   <diagram name="第 1 页" id="Q6D3COaA3sx65LGmH1Cn">
     <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,6 +219,177 @@
         </mxCell>
         <mxCell id="qRy19qNJVnOFsWcZGTG7-92" value="14: ins ertBorrowlnfo(sting, string)" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="445" y="1090" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-95" target="qRy19qNJVnOFsWcZGTG7-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-95" value="&lt;u&gt;：借阅管理员&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-96" value="&lt;u&gt;：图书借阅界面类&lt;/u&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1480" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-97" value="&lt;u&gt;：图书借阅业务类&lt;/u&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1480" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-98" value="&lt;u&gt;：图书证信息访问类&lt;/u&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-99" value="&lt;u&gt;：图书借阅信息访问类&lt;/u&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-96" target="qRy19qNJVnOFsWcZGTG7-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1521" as="sourcePoint" />
+            <mxPoint x="320" y="1528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-101" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-99" target="qRy19qNJVnOFsWcZGTG7-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1531" as="sourcePoint" />
+            <mxPoint x="330" y="1538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-98" target="qRy19qNJVnOFsWcZGTG7-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1541" as="sourcePoint" />
+            <mxPoint x="340" y="1548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-103" value="1:returnBook(string)" style="html=1;verticalAlign=bottom;endArrow=open;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="1510" as="sourcePoint" />
+            <mxPoint x="270" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-104" value="14:还书成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="30" relative="1" as="geometry">
+            <mxPoint x="270" y="1550" as="sourcePoint" />
+            <mxPoint x="190" y="1550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-105" value="2:verifyBookId(string)&lt;br&gt;6:verifyOverTime(string)&lt;br&gt;10:returnBook(string,string)" style="html=1;verticalAlign=bottom;endArrow=open;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470" y="1500" as="sourcePoint" />
+            <mxPoint x="550" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-106" value="5:图书信息&lt;br&gt;9:无超期图书&lt;br&gt;13:还书成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0992" y="50" relative="1" as="geometry">
+            <mxPoint x="534" y="1540" as="sourcePoint" />
+            <mxPoint x="454" y="1540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-107" value="3:getBookById(string)" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.2308" y="55" width="80" relative="1" as="geometry">
+            <mxPoint x="670" y="1600" as="sourcePoint" />
+            <mxPoint x="680" y="1650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-108" value="4:图书证信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.4595" y="38" relative="1" as="geometry">
+            <mxPoint x="640" y="1660" as="sourcePoint" />
+            <mxPoint x="630" y="1600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-109" value="7:IsOverTime(string)&lt;br&gt;11:addReturnTime(string)" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.5" y="78" width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="1650" as="sourcePoint" />
+            <mxPoint x="460" y="1700" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-110" value="8:无超期图书&lt;br&gt;12:还书成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.7049" y="29" relative="1" as="geometry">
+            <mxPoint x="440" y="1670" as="sourcePoint" />
+            <mxPoint x="500" y="1620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-111" value="&lt;u&gt;：图书借阅界面类&lt;/u&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1950" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-112" value="&lt;u&gt;：图书借阅业务类&lt;/u&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2190" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-113" value="" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-114" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;：用户&lt;/u&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-115" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-114" target="qRy19qNJVnOFsWcZGTG7-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="1258" as="sourcePoint" />
+            <mxPoint x="603" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-116" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-111" target="qRy19qNJVnOFsWcZGTG7-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="105" y="2240" as="sourcePoint" />
+            <mxPoint x="390" y="2036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-117" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qRy19qNJVnOFsWcZGTG7-113" target="qRy19qNJVnOFsWcZGTG7-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="2039" as="sourcePoint" />
+            <mxPoint x="721" y="2218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-121" value="1.：填写登录表单" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.04" y="36" width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="2130" as="sourcePoint" />
+            <mxPoint x="280" y="2070" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-122" value="3:getBookById(string)" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.2308" y="55" width="80" relative="1" as="geometry">
+            <mxPoint x="670" y="1600" as="sourcePoint" />
+            <mxPoint x="680" y="1650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-125" value="2：发送表单数据" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.8364" y="58" width="80" relative="1" as="geometry">
+            <mxPoint x="545" y="2050" as="sourcePoint" />
+            <mxPoint x="610" y="2100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-126" value="5：显示登录结果" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.8361" y="47" width="80" relative="1" as="geometry">
+            <mxPoint x="575" y="2130" as="sourcePoint" />
+            <mxPoint x="515" y="2080" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-127" value="4：返回合法消息" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0796" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="2370" as="sourcePoint" />
+            <mxPoint x="610" y="2310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-128" value="3：验证数据合法性" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.4353" y="-30" width="80" relative="1" as="geometry">
+            <mxPoint x="590" y="2390" as="sourcePoint" />
+            <mxPoint x="660" y="2330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-129" value="&lt;u style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251);&quot;&gt;：用户界面&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2040" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-130" value="&lt;u style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251);&quot;&gt;：程序逻辑层&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qRy19qNJVnOFsWcZGTG7-131" value="&lt;u style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251);&quot;&gt;：程序数据库&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2540" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
